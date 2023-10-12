@@ -26,3 +26,7 @@
   'package-archives
   '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
+
+;; visual
+(tool-bar-mode 0)
+(load-theme 'leuven-dark t)
